@@ -1,0 +1,50 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Omar Mohamed'
+theme = 'hugo-coder'
+
+[params]
+  author = "Omar Mohamed"
+  info = "JR Penetration Tester"
+  description = "c0pt4n's portfolio"
+  avatarurl = "images/avatar.jpg"
+  colorScheme = "auto"
+  faviconSVG = "/images/favicon.ico"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa-brands fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/c0pt4n/"
+[[params.social]]
+  name = "Gitlab"
+  icon = "fa-brands fa-gitlab fa-2x"
+  weight = 2
+  url = "https://gitlab.com/Coptan99/"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa-brands fa-linkedin fa-2x"
+  weight = 3
+  url = "https://www.linkedin.com/in/omar-mohamed-0a5bb4252/"
+[[params.social]]
+  name = "TryHackMe"
+  icon = "fa-solid fa-cloud fa-2x"
+  weight = 4
+  url = "https://tryhackme.com/r/p/c0pt4n"
+[[params.social]]
+  name = "HackTheBox"
+  icon = "fa-solid fa-cube fa-2x"
+  weight = 5
+  url = "https://app.hackthebox.com/users/1907590"
+[[params.social]]
+  name = "CV"
+  icon = "fa-solid fa-file fa-2x"
+  weight = 6
+  url = "/files/cv.pdf"
+
+# Menu links
+[[menu.main]]
+  name = "Contact me"
+  weight = 1
+  url = "https://linktr.ee/Coptan"
